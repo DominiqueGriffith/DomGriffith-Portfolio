@@ -1,0 +1,47 @@
+#menu{
+  position: fixed;
+  left: 0;
+  height: 100%;
+
+  width: 10%;
+  background-color:white;
+  color: black;
+  text-align: center;
+  border: solid 5px;
+  border-color: gray;
+
+
+}
+#name{
+  font-size: medium;
+  font: black;
+}
+/* #pagewrap{
+  float: right;
+} */
+body{
+  padding-left: 10%;
+}
+
+tr {
+    vertical-align: top;
+  }
+  .post {
+    width: 500px;
+  }
+  p {
+    font-size: 1.2em;
+    margin: 0 0 15px 0;
+  }
+  h1 {
+    font-family: Sans-serif;
+    font-size: 4em;
+    letter-spacing: -1px;
+    color: #ccc;
+  }
+  h2 {
+    font-family: Sans-serif;
+    font-size: 3em;
+    letter-spacing: -1px;
+    color: #ccc;
+  }
