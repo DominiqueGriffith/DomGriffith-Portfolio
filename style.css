@@ -16,6 +16,9 @@
   font-size: medium;
   font: black;
 }
+#email{
+  font-size: small;
+}
 /* #pagewrap{
   float: right;
 } */
@@ -45,3 +48,4 @@ tr {
     letter-spacing: -1px;
     color: #ccc;
   }
+  
