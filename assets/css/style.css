@@ -18,12 +18,17 @@
 }
 #email{
   font-size: small;
+  
 }
 /* #pagewrap{
   float: right;
 } */
 body{
   padding-left: 10%;
+}
+#contact{
+  position: absolute;
+  bottom: 0px;
 }
 
 tr {
@@ -47,5 +52,6 @@ tr {
     font-size: 3em;
     letter-spacing: -1px;
     color: #ccc;
+    text-align: center;
   }
   
