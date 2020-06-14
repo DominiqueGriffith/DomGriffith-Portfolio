@@ -1,4 +1,8 @@
+
+
 #menu{
+  font-family: 'Playfair Display', serif;
+
   position: fixed;
   left: 0;
   height: 100%;
@@ -20,6 +24,16 @@
   font-size: small;
   
 }
+#linkedin{
+  font-size: small;
+}
+#github{
+  font-size: small;
+}
+
+#paragraphs{
+ font-family: 'Playfair Display', serif;
+}
 /* #pagewrap{
   float: right;
 } */
@@ -27,8 +41,10 @@ body{
   padding-left: 10%;
 }
 #contact{
+ 
   position: absolute;
   bottom: 0px;
+  text-align: center;
 }
 
 tr {
@@ -42,13 +58,13 @@ tr {
     margin: 0 0 15px 0;
   }
   h1 {
-    font-family: Sans-serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 4em;
     letter-spacing: -1px;
     color: #ccc;
   }
   h2 {
-    font-family: Sans-serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 3em;
     letter-spacing: -1px;
     color: #ccc;
