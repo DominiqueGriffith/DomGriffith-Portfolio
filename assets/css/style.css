@@ -1,18 +1,18 @@
-
+/* body {background-color: black;} */
 
 #menu{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
 
   position: fixed;
   left: 0;
   height: 100%;
-
-  width: 10%;
-  background-color:white;
+  font-weight: 400;
+  width: 8%;
+  background-color: white;
   color: black;
   text-align: center;
-  border: solid 5px;
-  border-color: gray;
+  border: solid 3px;
+  border-color: black;
 
 
 }
@@ -22,17 +22,25 @@
 }
 #email{
   font-size: small;
+ 
+
   
 }
 #linkedin{
   font-size: small;
+ 
 }
 #github{
   font-size: small;
+  
 }
 
 #paragraphs{
- font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  
+
+ 
 }
 /* #pagewrap{
   float: right;
@@ -41,10 +49,12 @@ body{
   padding-left: 10%;
 }
 #contact{
- 
+ font-size: small;
   position: absolute;
   bottom: 0px;
-  text-align: center;
+  right: 20%;
+  font-weight: 900;
+
 }
 
 tr {
@@ -58,16 +68,42 @@ tr {
     margin: 0 0 15px 0;
   }
   h1 {
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     font-size: 4em;
     letter-spacing: -1px;
-    color: #ccc;
+    color: black;
   }
   h2 {
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
     font-size: 3em;
     letter-spacing: -1px;
-    color: #ccc;
+    color: black;
     text-align: center;
   }
+  #embeddedname {
+    font-weight: 900;
+
+
+  }
+
+  
+@media only screen and (max-width: 800px){
+	#paragraphs {color:blue;}
+}
+
+  /* ipad */
+  @media screen and (max-width: 768px) {
+  };
+
+  /* iphone 6 */
+  @media screen and (max-width: 640px) {
+
+  };
+
+  /* iphone 5 */
+  @media screen and (max-width: 640px) {
+
+  };
   
